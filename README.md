@@ -2,6 +2,10 @@
 
 This repository contains the test suite for the "QA Bug Hunter" project, which tests various endpoints of a web application, including user management, games, orders, payments, and more.
 
+[Installation](#installation)  
+[Run Tests](#running-tests)  
+[Bugs Description](#bug-notes)
+
 ## File Structure
 
 Here is the structure of the test files in the repository:
@@ -73,7 +77,7 @@ This will run only the tests defined in the `02_users_test.go` file.<br/>
 But make sure you run `01_setup_test.go` before running individual file
 
 
-## Bug Notes:
+## Bug Notes
 
 Note: Both `helpers.go` and `01_setup_test.go` doesn't contain any tests but essential to run all the test cases. If you are running individual testcases run `go test -v 01_setup_test.go` to complete the setup. 
 

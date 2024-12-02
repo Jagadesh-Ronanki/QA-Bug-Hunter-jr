@@ -65,18 +65,6 @@ go test -v
 
 This will run all the tests in the `*_test.go` files in the repository.
 
-### Running a Specific Test File
-
-If you want to run tests from a specific file, use:
-
-```bash
-go test -v 02_users_test.go
-```
-
-This will run only the tests defined in the `02_users_test.go` file.<br/>
-But make sure you run `01_setup_test.go` before running individual file
-
-
 ## Bug Notes
 
 Note: Both `helpers.go` and `01_setup_test.go` doesn't contain any tests but essential to run all the test cases. If you are running individual testcases run `go test -v 01_setup_test.go` to complete the setup. 
